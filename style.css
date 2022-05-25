@@ -914,6 +914,16 @@ table {
     vertical-align: text-bottom;
 }
 
+/*scroll___1__________________________________________*/
+
+.main-tables-container {
+    display: flex;
+    height: 316px;
+    overflow-x: scroll; /* asi se hace el srcoll vertical para el horizontal seria (overflow-y: scroll)*/
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 /*scroll_____________________________________________*/
 
 .plans-container--slider {
