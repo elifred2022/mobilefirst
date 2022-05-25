@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobilefirst</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Great+Vibes&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="ccs/tablets.css" media="(min-width: 930px)">
 </head>
 <body>
     <header>
@@ -54,11 +55,12 @@
                             <td class="table__bottom-right table__right">$4.96 <span class="trending-down2"></span></td>
                         </tr>
                     </table>
+                    <div class="currency-table--date">
+                        <p> <b>Actualizado: </b> 19 julio 23:45 </p>
+                    </div>
                 </div>
             </div>
-                <div class="currency-table--date">
-                    <p> <b>Actualizado: </b> 19 julio 23:45 </p>
-                </div>
+                
                 <div class="main-comision-table">
                     <p class="comision-table--title">Comision</p>
                 
@@ -81,11 +83,12 @@
                             <td class="tablecomision__bottom-right tablecomision__right">$14.96 <span class="trending-down3"></span></td>
                         </tr>
                     </table>
+                    <div class="comision-table--date">
+                        <p> <b>Actualizado: </b> 19 julio 23:48 </p>
+                    </div>
                 </div>
             </div>
-                <div class="comision-table--date">
-                    <p> <b>Actualizado: </b> 19 julio 23:48 </p>
-                </div>
+                
             </section>
         </section>
         <section class="main-product-detail">
@@ -164,7 +167,16 @@
         </section>
     </main>
     <footer>
-
+        <section class="left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="rigth">
+            <img src="./assets/img/logo-footer.svg" alt="logo de batata 2020">
+        </section>
     </footer>
 </body>
 </html>
